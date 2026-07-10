@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 760" role="img" aria-label="林夏冷静立绘">
+  <defs>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#134e4a"/>
+    </linearGradient>
+  </defs>
+  <path d="M92 742c18-158 54-252 120-252 72 0 112 94 132 252z" fill="#111827" opacity=".38"/>
+  <path d="M112 742c18-146 44-228 100-228 58 0 88 82 106 228z" fill="url(#coat)"/>
+  <path d="M152 520c28 42 92 44 122 0l18 222H132z" fill="#0f172a"/>
+  <ellipse cx="212" cy="284" rx="112" ry="132" fill="#2b211d"/>
+  <circle cx="214" cy="302" r="96" fill="#f2c4a3"/>
+  <path d="M126 274c28-102 134-152 218-70-54-9-123 3-218 70z" fill="#2b211d"/>
+  <path d="M125 310c30 55 42 116 36 184-48-50-66-118-36-184z" fill="#2b211d"/>
+  <path d="M305 304c-24 56-30 116-18 178 44-48 58-112 18-178z" fill="#2b211d"/>
+  <circle cx="188" cy="306" r="7" fill="#111827"/>
+  <circle cx="242" cy="306" r="7" fill="#111827"/>
+  <path d="M196 356c20 12 43 12 64 0" stroke="#9a5a47" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="258" y="478" width="70" height="126" rx="18" fill="#0a0a0a"/>
+  <rect x="270" y="494" width="46" height="84" rx="8" fill="#172554"/>
+</svg>

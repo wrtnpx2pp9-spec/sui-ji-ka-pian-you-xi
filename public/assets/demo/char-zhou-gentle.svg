@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 760" role="img" aria-label="周予安温柔立绘">
+  <path d="M88 742c22-168 62-256 128-256 68 0 110 88 132 256z" fill="#020617" opacity=".38"/>
+  <path d="M106 742c24-150 58-234 110-234 54 0 92 84 116 234z" fill="#111827"/>
+  <rect x="160" y="500" width="112" height="98" rx="12" fill="#f8fafc"/>
+  <path d="M142 584h150l38 158H104z" fill="#1f2937"/>
+  <circle cx="216" cy="284" r="94" fill="#efc2a3"/>
+  <path d="M126 254c18-104 84-154 154-128 44 16 68 56 74 110-68-30-142-22-228 18z" fill="#201a18"/>
+  <path d="M136 250c38-68 122-86 190-30-70-12-124-2-190 30z" fill="#2f2622"/>
+  <circle cx="190" cy="292" r="7" fill="#111827"/>
+  <circle cx="248" cy="292" r="7" fill="#111827"/>
+  <path d="M194 342c24 16 48 16 72 0" stroke="#8b5a45" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M146 518l70 76 70-76" fill="none" stroke="#e5e7eb" stroke-width="10"/>
+</svg>

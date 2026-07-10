@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="街角咖啡馆背景">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f2b36d"/>
+      <stop offset=".48" stop-color="#80645a"/>
+      <stop offset="1" stop-color="#24201f"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".76" cy=".18" r=".34">
+      <stop stop-color="#fff7ed"/>
+      <stop offset=".48" stop-color="#fcd34d" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#fcd34d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#sky)"/>
+  <rect width="1080" height="1920" fill="url(#sun)"/>
+  <rect x="70" y="500" width="940" height="690" rx="34" fill="#3b302c"/>
+  <rect x="122" y="574" width="386" height="330" rx="18" fill="#c7b198"/>
+  <rect x="570" y="574" width="386" height="330" rx="18" fill="#c7b198"/>
+  <path d="M122 904h834v96H122z" fill="#6a4b3b"/>
+  <g opacity=".58">
+    <rect x="166" y="630" width="130" height="220" fill="#fff7ed"/>
+    <rect x="336" y="630" width="120" height="220" fill="#fff7ed"/>
+    <rect x="612" y="630" width="130" height="220" fill="#fff7ed"/>
+    <rect x="782" y="630" width="120" height="220" fill="#fff7ed"/>
+  </g>
+  <path d="M0 1206h1080v714H0z" fill="#1c1917"/>
+  <ellipse cx="540" cy="1384" rx="390" ry="105" fill="#76523e"/>
+  <rect x="226" y="1386" width="628" height="42" fill="#5b3d31"/>
+  <rect x="312" y="1416" width="42" height="334" rx="10" fill="#3b2a24"/>
+  <rect x="728" y="1416" width="42" height="334" rx="10" fill="#3b2a24"/>
+  <circle cx="254" cy="1328" r="42" fill="#f5e6d3"/>
+  <rect x="230" y="1346" width="48" height="58" rx="8" fill="#f5e6d3"/>
+  <path d="M62 1112c132-58 260-58 384 0" stroke="#d6a066" stroke-width="10" fill="none" opacity=".4"/>
+</svg>

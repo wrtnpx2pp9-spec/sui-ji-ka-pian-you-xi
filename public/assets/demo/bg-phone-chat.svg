@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="聊天记录背景">
+  <defs>
+    <linearGradient id="outer" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0f172a"/>
+      <stop offset=".6" stop-color="#183f3d"/>
+      <stop offset="1" stop-color="#422423"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#outer)"/>
+  <rect x="160" y="112" width="760" height="1668" rx="92" fill="#0a0a0a"/>
+  <rect x="204" y="190" width="672" height="1514" rx="52" fill="#f8fafc"/>
+  <rect x="204" y="190" width="672" height="144" rx="52" fill="#0f766e"/>
+  <rect x="458" y="140" width="164" height="34" rx="17" fill="#0a0a0a"/>
+  <circle cx="314" cy="262" r="36" fill="#e7b998"/>
+  <text x="540" y="278" text-anchor="middle" font-size="36" font-family="Arial, sans-serif" font-weight="700" fill="#fff">周予安</text>
+  <g font-family="Arial, sans-serif" font-size="24">
+    <rect x="268" y="430" width="426" height="92" rx="24" fill="#e5e7eb"/>
+    <text x="296" y="486" fill="#334155">你今天是不是又没吃饭？</text>
+    <rect x="392" y="570" width="404" height="92" rx="24" fill="#ccfbf1"/>
+    <text x="424" y="626" fill="#0f172a">你怎么每次都知道？</text>
+    <rect x="268" y="712" width="512" height="142" rx="24" fill="#e5e7eb"/>
+    <text x="296" y="770" fill="#334155">我只是比别人更在意你。</text>
+    <text x="296" y="814" fill="#334155">别什么都拿去问许然。</text>
+    <rect x="356" y="902" width="438" height="92" rx="24" fill="#ccfbf1"/>
+    <text x="388" y="958" fill="#0f172a">她只是担心我。</text>
+    <rect x="268" y="1046" width="536" height="146" rx="24" fill="#fee2e2"/>
+    <text x="296" y="1104" fill="#7f1d1d">如果连你也不信我，</text>
+    <text x="296" y="1148" fill="#7f1d1d">那我真的不知道该找谁了。</text>
+  </g>
+  <rect x="250" y="1550" width="580" height="82" rx="41" fill="#e5e7eb"/>
+  <circle cx="774" cy="1591" r="28" fill="#0f766e"/>
+</svg>

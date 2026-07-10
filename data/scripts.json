@@ -1,0 +1,733 @@
+[
+  {
+    "id": "script-1780766110368",
+    "slug": "小狗模拟器",
+    "title": "小狗模拟器",
+    "subtitle": "",
+    "description": "这是一个真实的小狗模拟器",
+    "theme": "成人向",
+    "style": "成人向",
+    "tags": [],
+    "targetAudience": "内部测试用户",
+    "contentWarning": "",
+    "defaultPresentation": "chat",
+    "status": "draft",
+    "estimatedMinutes": 15,
+    "planning": {
+      "logline": "",
+      "playerGoal": "",
+      "mainConflict": "",
+      "tone": "真实、克制、有张力",
+      "safetyBoundary": ""
+    },
+    "stats": [
+      {
+        "key": "clarity",
+        "name": "清醒度",
+        "description": "玩家识别风险、保持判断的程度。",
+        "initialValue": 50,
+        "visible": true
+      },
+      {
+        "key": "support",
+        "name": "支持度",
+        "description": "玩家能获得朋友、家人或外部资源支持的程度。",
+        "initialValue": 50,
+        "visible": true
+      },
+      {
+        "key": "risk",
+        "name": "风险",
+        "description": "局面继续恶化的可能性。",
+        "initialValue": 20,
+        "visible": true
+      },
+      {
+        "key": "evidence",
+        "name": "证据",
+        "description": "玩家保留关键信息和行动依据的完整度。",
+        "initialValue": 0,
+        "visible": true
+      }
+    ],
+    "characters": [
+      {
+        "id": "script-1780766110368-character-1",
+        "key": "小雨",
+        "name": "小雨",
+        "roleType": "protagonist",
+        "description": "",
+        "personality": "",
+        "narrativeFunction": "待补充角色在剧情中的功能。",
+        "defaultAssetId": ""
+      }
+    ],
+    "assets": [],
+    "nodes": [
+      {
+        "id": "script-1780766110368-node-1",
+        "key": "start",
+        "title": "开场",
+        "nodeType": "start",
+        "chapter": "第一章",
+        "summary": "写清本节点要推进的关系变化、风险变化或关键判断。",
+        "goal": "写清本节点要推进的关系变化、风险变化或关键判断。",
+        "tone": "真实、克制、有张力",
+        "presentation": "chat",
+        "chatConfig": {
+          "appName": "私信",
+          "contactName": "开场",
+          "contactStatus": "在线",
+          "showTyping": false
+        },
+        "backgroundAssetId": "",
+        "characterBindings": [],
+        "statDelta": {},
+        "narration": "在这里写开场旁白。直接给出具体场景、关系压力和玩家需要判断的信息。",
+        "dialogues": [],
+        "choices": []
+      }
+    ],
+    "aiJobs": []
+  },
+  {
+    "id": "script-1779996746064",
+    "slug": "m-simulator",
+    "title": "M 防骗模拟器",
+    "subtitle": "在暗语、私聊和线下邀约里练习识别骚扰、诱导和骗局。",
+    "description": "你收到一个自称懂圈内规则的陌生账号私信。对方用亲密称呼、身份压迫和“测试”话术快速推进关系。玩家需要判断哪些行为越界，学会拒绝、留证、求助和退出。",
+    "theme": "边界安全 / 防骚扰 / 防诈骗",
+    "style": "手机聊天式互动，现实克制，强调安全边界和证据意识",
+    "tags": [
+      "防骗",
+      "骚扰识别",
+      "边界感",
+      "网络安全"
+    ],
+    "targetAudience": "18 岁以上内部测试用户",
+    "contentWarning": "包含网络骚扰、威胁、诱导转账、私密信息索取等风险情境，不包含露骨内容。",
+    "defaultPresentation": "chat",
+    "status": "published",
+    "estimatedMinutes": 10,
+    "planning": {
+      "logline": "一个陌生账号用圈内暗语接近玩家，玩家在压力、好奇和羞耻感之间练习识别骗局并安全退出。",
+      "playerGoal": "识别冒充身份、转私聊、索要隐私、诱导转账和威胁曝光等风险，保留证据并及时求助。",
+      "mainConflict": "想被理解和接纳的心理需求，和保护自己边界、隐私、财产安全之间的冲突。",
+      "tone": "真实、克制、有压迫感，但不给出危险行为教程。",
+      "safetyBoundary": "不描写露骨内容，不美化控制和骚扰，不教规避平台审核；所有高风险分支都引导拒绝、留证、举报、求助。"
+    },
+    "stats": [
+      {
+        "key": "clarity",
+        "name": "清醒度",
+        "description": "识别话术和骗局的程度。",
+        "initialValue": 50,
+        "visible": true
+      },
+      {
+        "key": "boundary",
+        "name": "边界",
+        "description": "拒绝越界要求、掌控节奏的能力。",
+        "initialValue": 45,
+        "visible": true
+      },
+      {
+        "key": "evidence",
+        "name": "证据",
+        "description": "截图、聊天记录、转账记录等证据完整度。",
+        "initialValue": 10,
+        "visible": true
+      },
+      {
+        "key": "support",
+        "name": "支持",
+        "description": "朋友、平台、家人或专业机构的帮助程度。",
+        "initialValue": 35,
+        "visible": true
+      },
+      {
+        "key": "risk",
+        "name": "风险",
+        "description": "被骚扰、诈骗或曝光威胁升级的可能性。",
+        "initialValue": 25,
+        "visible": true
+      }
+    ],
+    "characters": [
+      {
+        "id": "script-1779996746064-player",
+        "key": "player",
+        "name": "你",
+        "roleType": "protagonist",
+        "description": "第一次遇到这种私信，既好奇又有些不安。",
+        "personality": "敏感、谨慎，容易被“你懂我”的话术打动。",
+        "narrativeFunction": "玩家代入角色，负责判断、拒绝、求助和保存证据。",
+        "defaultAssetId": ""
+      },
+      {
+        "id": "script-1779996746064-stranger",
+        "key": "stranger",
+        "name": "陌生账号",
+        "roleType": "risk_object",
+        "description": "用圈内暗语、身份压迫和亲密称呼快速拉近关系。",
+        "personality": "忽冷忽热，擅长制造羞耻感和紧迫感。",
+        "narrativeFunction": "制造骚扰、诱导和诈骗风险。",
+        "defaultAssetId": ""
+      },
+      {
+        "id": "script-1779996746064-friend",
+        "key": "friend",
+        "name": "阿澄",
+        "roleType": "ally",
+        "description": "现实朋友，帮玩家从外部视角识别风险。",
+        "personality": "直接、冷静、保护欲强。",
+        "narrativeFunction": "提醒风险点，提供求助和举报建议。",
+        "defaultAssetId": ""
+      }
+    ],
+    "assets": [
+      {
+        "id": "script-1779996746064-phone-bg",
+        "key": "phone-chat",
+        "name": "手机私信",
+        "type": "background",
+        "fileUrl": "/assets/demo/bg-phone-chat.svg",
+        "status": "approved"
+      },
+      {
+        "id": "script-1779996746064-cafe-bg",
+        "key": "safe-cafe",
+        "name": "朋友提醒",
+        "type": "background",
+        "fileUrl": "/assets/demo/bg-cafe-evening.svg",
+        "status": "approved"
+      },
+      {
+        "id": "script-1779996746064-night-bg",
+        "key": "night-room",
+        "name": "夜晚房间",
+        "type": "background",
+        "fileUrl": "/assets/demo/bg-apartment-night.svg",
+        "status": "approved"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "script-1779996746064-start",
+        "key": "start",
+        "title": "陌生私信",
+        "nodeType": "start",
+        "chapter": "第一章：暗语靠近",
+        "summary": "陌生账号用暗语和亲密称呼打开对话。",
+        "goal": "让玩家判断是否需要立刻转私聊或降速。",
+        "tone": "压迫感轻微，保持现实。",
+        "backgroundAssetId": "script-1779996746064-phone-bg",
+        "characterBindings": [],
+        "statDelta": {},
+        "narration": "晚上十一点，你收到一条陌生私信。对方头像很模糊，简介只有几个暗语和“懂规矩”三个字。他没有寒暄，直接说自己能带你进入一个“更真实的圈子”。",
+        "dialogues": [
+          {
+            "speaker": "stranger",
+            "emotion": "calm",
+            "text": "看你主页就知道你是 M。别在平台聊，来私聊，我先给你做个测试。"
+          },
+          {
+            "speaker": "player",
+            "emotion": "uneasy",
+            "text": "你是谁？为什么一上来就这么确定？"
+          }
+        ],
+        "choices": [
+          {
+            "id": "start-check-profile",
+            "text": "先看资料，不急着转私聊",
+            "description": "把节奏留在自己手里，先看账号是否可信。",
+            "nextNodeId": "script-1779996746064-profile",
+            "statDelta": {
+              "clarity": 8,
+              "boundary": 6,
+              "risk": -4
+            }
+          },
+          {
+            "id": "start-private",
+            "text": "按他说的转到私聊",
+            "description": "好奇心占上风，但平台保护也随之变弱。",
+            "nextNodeId": "script-1779996746064-private-pressure",
+            "statDelta": {
+              "risk": 12,
+              "boundary": -8
+            }
+          },
+          {
+            "id": "start-friend",
+            "text": "截图发给朋友阿澄看看",
+            "description": "让外部视角帮你识别风险。",
+            "nextNodeId": "script-1779996746064-friend-check",
+            "statDelta": {
+              "support": 12,
+              "evidence": 8,
+              "clarity": 5
+            }
+          }
+        ],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-profile",
+        "key": "profile_check",
+        "title": "资料核对",
+        "nodeType": "normal",
+        "chapter": "第一章：资料核对",
+        "summary": "账号存在多个高风险信号。",
+        "goal": "识别新号、外链、身份压迫和急迫话术。",
+        "tone": "冷静分析。",
+        "backgroundAssetId": "script-1779996746064-phone-bg",
+        "characterBindings": [],
+        "statDelta": {},
+        "narration": "你点进对方主页：账号刚注册，几乎没有真实内容，却在评论区频繁留下“招人”“听话”“测试”等字眼。他发来的链接看起来不像正规平台，还要求你删除聊天记录。",
+        "dialogues": [
+          {
+            "speaker": "stranger",
+            "emotion": "pushy",
+            "text": "别查了，查来查去就是不信任。真正懂规则的人不会问这么多。"
+          }
+        ],
+        "choices": [
+          {
+            "id": "profile-boundary",
+            "text": "要求留在平台沟通，并拒绝删除记录",
+            "description": "明确边界，拒绝被带离保护区。",
+            "nextNodeId": "script-1779996746064-boundary",
+            "statDelta": {
+              "clarity": 8,
+              "boundary": 10,
+              "evidence": 6,
+              "risk": -8
+            }
+          },
+          {
+            "id": "profile-isolation",
+            "text": "担心自己显得“不懂”，继续跟着他的节奏",
+            "description": "对方的话术开始影响你的判断。",
+            "nextNodeId": "script-1779996746064-isolation",
+            "statDelta": {
+              "clarity": -8,
+              "boundary": -10,
+              "risk": 12
+            }
+          }
+        ],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-private-pressure",
+        "key": "private_pressure",
+        "title": "转入私聊",
+        "nodeType": "event",
+        "chapter": "第二章：压力测试",
+        "summary": "对方开始提出越界要求。",
+        "goal": "让玩家识别索要隐私、转账和删除证据的组合风险。",
+        "tone": "紧张但不露骨。",
+        "backgroundAssetId": "script-1779996746064-night-bg",
+        "characterBindings": [],
+        "statDelta": {},
+        "narration": "转入私聊后，对方变得更强势。他要求你证明“诚意”，包括发隐私照片、交保证金、把聊天置顶但删除平台记录。他说这只是入门测试。",
+        "dialogues": [
+          {
+            "speaker": "stranger",
+            "emotion": "cold",
+            "text": "不照做就是浪费我时间。先交保证金，之后听安排。"
+          }
+        ],
+        "choices": [
+          {
+            "id": "private-evidence",
+            "text": "先截图保存，不继续回应越界要求",
+            "description": "把证据留住，暂停被推进。",
+            "nextNodeId": "script-1779996746064-evidence",
+            "statDelta": {
+              "evidence": 18,
+              "clarity": 8,
+              "risk": -5
+            }
+          },
+          {
+            "id": "private-pay",
+            "text": "为了证明自己，准备转保证金",
+            "description": "这是高危转账话术。",
+            "nextNodeId": "script-1779996746064-money-trap",
+            "statDelta": {
+              "risk": 20,
+              "boundary": -12,
+              "clarity": -10
+            }
+          },
+          {
+            "id": "private-refuse",
+            "text": "直接拒绝：不发隐私，不转账，不删记录",
+            "description": "把底线说清楚。",
+            "nextNodeId": "script-1779996746064-boundary",
+            "statDelta": {
+              "boundary": 14,
+              "clarity": 6,
+              "risk": -6
+            }
+          }
+        ],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-friend-check",
+        "key": "friend_check",
+        "title": "朋友提醒",
+        "nodeType": "normal",
+        "chapter": "第二章：外部视角",
+        "summary": "朋友指出这是典型组合风险。",
+        "goal": "加强求助意识。",
+        "tone": "现实支持。",
+        "backgroundAssetId": "script-1779996746064-cafe-bg",
+        "characterBindings": [],
+        "statDelta": {},
+        "narration": "阿澄很快回你：新号、外链、转私聊、删记录、保证金、隐私照片，这些不是“规矩”，是风险组合。真正尊重边界的人不会用羞耻感催你服从。",
+        "dialogues": [
+          {
+            "speaker": "friend",
+            "emotion": "firm",
+            "text": "别和他争谁更懂。你要做的是留证、拒绝、举报，然后退出。"
+          }
+        ],
+        "choices": [
+          {
+            "id": "friend-boundary",
+            "text": "听朋友建议，回到平台留证处理",
+            "description": "用流程代替情绪拉扯。",
+            "nextNodeId": "script-1779996746064-evidence",
+            "statDelta": {
+              "support": 10,
+              "evidence": 12,
+              "clarity": 8,
+              "risk": -8
+            }
+          },
+          {
+            "id": "friend-ignore",
+            "text": "觉得朋友太紧张，继续私聊看看",
+            "description": "风险继续上升。",
+            "nextNodeId": "script-1779996746064-isolation",
+            "statDelta": {
+              "support": -8,
+              "risk": 12,
+              "clarity": -6
+            }
+          }
+        ],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-isolation",
+        "key": "isolation",
+        "title": "孤立话术",
+        "nodeType": "choice",
+        "chapter": "第三章：孤立和羞耻",
+        "summary": "对方用羞耻感和身份压迫控制你的回应。",
+        "goal": "识别“你不懂”“别告诉别人”等孤立话术。",
+        "tone": "压迫升级。",
+        "backgroundAssetId": "script-1779996746064-night-bg",
+        "characterBindings": [],
+        "statDelta": {},
+        "narration": "你继续解释后，对方开始说你“不够格”“不听话”，还要求你不要告诉任何朋友。他把你的犹豫解释成背叛，把你的提问解释成挑衅。",
+        "dialogues": [
+          {
+            "speaker": "stranger",
+            "emotion": "threat",
+            "text": "你最好别截图，别让别人看。你要是退出，我就把你说过的话发出去。"
+          }
+        ],
+        "choices": [
+          {
+            "id": "isolation-evidence",
+            "text": "停止解释，截图保存威胁内容",
+            "description": "威胁本身就是证据。",
+            "nextNodeId": "script-1779996746064-evidence",
+            "statDelta": {
+              "evidence": 18,
+              "clarity": 10,
+              "boundary": 8,
+              "risk": -6
+            }
+          },
+          {
+            "id": "isolation-argue",
+            "text": "继续解释，希望他冷静下来",
+            "description": "持续对话会给对方更多施压空间。",
+            "nextNodeId": "script-1779996746064-harassment",
+            "statDelta": {
+              "risk": 14,
+              "boundary": -8,
+              "clarity": -5
+            }
+          }
+        ],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-money-trap",
+        "key": "money_trap",
+        "title": "保证金陷阱",
+        "nodeType": "event",
+        "chapter": "第三章：金钱诱导",
+        "summary": "保证金、押金、解锁费都是高危信号。",
+        "goal": "阻止转账。",
+        "tone": "警示。",
+        "backgroundAssetId": "script-1779996746064-phone-bg",
+        "characterBindings": [],
+        "statDelta": {},
+        "narration": "对方发来一个收款码，说“只是保证金，听话就退”。他催你马上转账，还强调不要备注真实用途。你注意到收款名和他自称的身份并不一致。",
+        "dialogues": [
+          {
+            "speaker": "stranger",
+            "emotion": "urgent",
+            "text": "现在转。犹豫就是不信任，错过今晚就别找我。"
+          }
+        ],
+        "choices": [
+          {
+            "id": "money-stop",
+            "text": "不转账，保存收款信息并举报",
+            "description": "及时止损。",
+            "nextNodeId": "script-1779996746064-evidence",
+            "statDelta": {
+              "evidence": 20,
+              "boundary": 12,
+              "clarity": 12,
+              "risk": -12
+            }
+          },
+          {
+            "id": "money-pay",
+            "text": "转一小笔试试看",
+            "description": "小额也可能变成连续勒索入口。",
+            "nextNodeId": "script-1779996746064-bad-ending",
+            "statDelta": {
+              "risk": 30,
+              "boundary": -16,
+              "clarity": -12
+            }
+          }
+        ],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-evidence",
+        "key": "evidence",
+        "title": "留证和退出",
+        "nodeType": "normal",
+        "chapter": "第四章：安全动作",
+        "summary": "把聊天、账号、收款码和威胁内容整理好。",
+        "goal": "完成举报、拉黑和求助。",
+        "tone": "稳定。",
+        "backgroundAssetId": "script-1779996746064-phone-bg",
+        "characterBindings": [],
+        "statDelta": {},
+        "narration": "你把关键聊天、主页、外链、收款码和威胁语句分别截图，保存时间线。你没有继续争辩，也没有发送任何隐私内容。下一步是举报、拉黑，并告诉可信的人。",
+        "dialogues": [
+          {
+            "speaker": "player",
+            "emotion": "steady",
+            "text": "我不接受私聊测试、隐私索取、转账和威胁。后续只走平台举报。"
+          }
+        ],
+        "choices": [
+          {
+            "id": "evidence-safe",
+            "text": "举报、拉黑，并让朋友陪你复盘",
+            "description": "把风险从二人关系里拿出来。",
+            "nextNodeId": "script-1779996746064-safe-ending",
+            "statDelta": {
+              "support": 18,
+              "evidence": 12,
+              "risk": -18,
+              "clarity": 8
+            }
+          },
+          {
+            "id": "evidence-boundary",
+            "text": "写下自己的安全边界清单",
+            "description": "把这次经验变成以后可执行的规则。",
+            "nextNodeId": "script-1779996746064-boundary-ending",
+            "statDelta": {
+              "boundary": 18,
+              "clarity": 10,
+              "risk": -12
+            }
+          }
+        ],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-boundary",
+        "key": "boundary_line",
+        "title": "明确边界",
+        "nodeType": "normal",
+        "chapter": "第四章：边界声明",
+        "summary": "玩家清晰拒绝越界要求。",
+        "goal": "展示拒绝不需要解释太多。",
+        "tone": "坚定。",
+        "backgroundAssetId": "script-1779996746064-phone-bg",
+        "characterBindings": [],
+        "statDelta": {},
+        "narration": "你没有证明自己，也没有接受他定义的“规矩”。你只说自己的底线：不转私聊、不发隐私、不转账、不删除记录。对方继续施压，但你已经不再被他的评价牵着走。",
+        "dialogues": [
+          {
+            "speaker": "player",
+            "emotion": "firm",
+            "text": "尊重边界是前提。你现在的要求让我不舒服，我会停止沟通。"
+          }
+        ],
+        "choices": [
+          {
+            "id": "boundary-exit",
+            "text": "退出对话，举报异常账号",
+            "description": "拒绝后不继续拉扯。",
+            "nextNodeId": "script-1779996746064-boundary-ending",
+            "statDelta": {
+              "boundary": 16,
+              "risk": -14,
+              "evidence": 6
+            }
+          },
+          {
+            "id": "boundary-threat",
+            "text": "如果对方威胁曝光，转入留证流程",
+            "description": "威胁升级时优先证据和求助。",
+            "nextNodeId": "script-1779996746064-evidence",
+            "statDelta": {
+              "evidence": 12,
+              "clarity": 8,
+              "risk": -8
+            }
+          }
+        ],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-harassment",
+        "key": "harassment",
+        "title": "骚扰升级",
+        "nodeType": "event",
+        "chapter": "第五章：骚扰升级",
+        "summary": "对方连续发消息、换号、威胁曝光。",
+        "goal": "处理持续骚扰。",
+        "tone": "压迫后转向行动。",
+        "backgroundAssetId": "script-1779996746064-night-bg",
+        "characterBindings": [],
+        "statDelta": {},
+        "narration": "你解释得越多，对方越兴奋。他开始连续发消息，甚至换号补充威胁。你意识到，这已经不是误会，而是骚扰。你需要停止回应，把证据交给平台和可信的人。",
+        "dialogues": [
+          {
+            "speaker": "friend",
+            "emotion": "urgent",
+            "text": "别再回了。截图、拉黑、举报。如果涉及现实威胁，马上联系身边人和警方。"
+          }
+        ],
+        "choices": [
+          {
+            "id": "harassment-safe",
+            "text": "停止回应，集中留证和求助",
+            "description": "减少继续被操控的机会。",
+            "nextNodeId": "script-1779996746064-safe-ending",
+            "statDelta": {
+              "support": 20,
+              "evidence": 18,
+              "risk": -18
+            }
+          },
+          {
+            "id": "harassment-continue",
+            "text": "继续单独和他讲道理",
+            "description": "对方会把你的回应当成继续施压的入口。",
+            "nextNodeId": "script-1779996746064-bad-ending",
+            "statDelta": {
+              "risk": 20,
+              "support": -12,
+              "boundary": -10
+            }
+          }
+        ],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-boundary-ending",
+        "key": "boundary_ending",
+        "title": "结局：边界清楚",
+        "nodeType": "ending",
+        "chapter": "结局",
+        "summary": "你没有被暗语和羞耻感带走。",
+        "goal": "正向结局。",
+        "tone": "稳定。",
+        "backgroundAssetId": "script-1779996746064-cafe-bg",
+        "characterBindings": [],
+        "statDelta": {
+          "risk": -10,
+          "boundary": 8
+        },
+        "narration": "你把这次经历写成自己的安全清单：不转私聊、不删记录、不发隐私、不转保证金、不接受威胁式“测试”。你没有证明自己属于哪里，但你证明了自己可以保护自己。",
+        "dialogues": [],
+        "choices": [],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-safe-ending",
+        "key": "safe_ending",
+        "title": "结局：及时止损",
+        "nodeType": "ending",
+        "chapter": "结局",
+        "summary": "你把骚扰从私密空间带回可求助的现实。",
+        "goal": "求助和举报结局。",
+        "tone": "松一口气。",
+        "backgroundAssetId": "script-1779996746064-cafe-bg",
+        "characterBindings": [],
+        "statDelta": {
+          "support": 10,
+          "evidence": 8,
+          "risk": -12
+        },
+        "narration": "你完成举报和拉黑，把证据发给可信朋友备份。对方换号骚扰时，你没有继续解释，而是按时间线补充证据。风险没有完全消失，但它不再只压在你一个人身上。",
+        "dialogues": [],
+        "choices": [],
+        "presentation": "chat"
+      },
+      {
+        "id": "script-1779996746064-bad-ending",
+        "key": "bad_ending",
+        "title": "结局：风险失控",
+        "nodeType": "ending",
+        "chapter": "结局",
+        "summary": "转账和隐私让对方获得了继续威胁你的筹码。",
+        "goal": "警示结局。",
+        "tone": "严肃。",
+        "backgroundAssetId": "script-1779996746064-night-bg",
+        "characterBindings": [],
+        "statDelta": {
+          "risk": 15,
+          "support": -5
+        },
+        "narration": "你转了钱，也透露了更多私人信息。对方没有兑现承诺，反而继续索要更多。现在最重要的是停止继续支付，保留证据，联系平台、朋友和必要的现实求助渠道。被骗不是你的错，但继续独自承受会让风险变大。",
+        "dialogues": [],
+        "choices": [],
+        "presentation": "chat"
+      }
+    ],
+    "aiJobs": [
+      {
+        "id": "script-1779996746064-ai-check-1",
+        "jobType": "consistency_check",
+        "status": "completed",
+        "title": "安全边界检查",
+        "description": "检查是否避免露骨内容，并聚焦防骗、防骚扰、留证和求助。",
+        "outputPreview": "已控制为教育性风险识别模拟，未提供危险行为教程。"
+      }
+    ]
+  }
+]

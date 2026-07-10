@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 760" role="img" aria-label="许然警觉立绘">
+  <path d="M90 742c22-158 62-248 126-248 70 0 108 90 130 248z" fill="#020617" opacity=".35"/>
+  <path d="M106 742c24-148 60-228 112-228 56 0 94 80 118 228z" fill="#9f1239"/>
+  <path d="M150 520c36 48 98 48 134 0l34 222H116z" fill="#881337"/>
+  <ellipse cx="214" cy="286" rx="110" ry="132" fill="#3a241f"/>
+  <circle cx="216" cy="304" r="96" fill="#f2c4a3"/>
+  <path d="M122 290c14-116 86-176 170-150 50 16 72 70 56 150-58-58-146-66-226 0z" fill="#3a241f"/>
+  <path d="M132 300c24 58 30 126 18 184-44-42-58-114-18-184z" fill="#3a241f"/>
+  <path d="M302 296c-20 62-22 126-4 184 38-44 48-112 4-184z" fill="#3a241f"/>
+  <path d="M164 278c22-14 42-14 62 0" stroke="#111827" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M230 278c22-14 42-14 62 0" stroke="#111827" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <circle cx="190" cy="310" r="7" fill="#111827"/>
+  <circle cx="248" cy="310" r="7" fill="#111827"/>
+  <path d="M198 360c22 10 44 10 66 0" stroke="#9a5a47" stroke-width="7" fill="none" stroke-linecap="round"/>
+</svg>

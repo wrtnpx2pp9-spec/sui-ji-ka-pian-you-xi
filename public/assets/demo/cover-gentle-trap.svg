@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="温柔陷阱剧本封面">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0f172a"/>
+      <stop offset=".55" stop-color="#31514d"/>
+      <stop offset="1" stop-color="#c1846b"/>
+    </linearGradient>
+    <radialGradient id="light" cx=".52" cy=".3" r=".62">
+      <stop stop-color="#fde7c7" stop-opacity=".95"/>
+      <stop offset=".4" stop-color="#f0b78d" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#020617" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#light)"/>
+  <path d="M0 874c198-95 404-105 900-34v360H0z" fill="#111827" opacity=".62"/>
+  <g filter="url(#shadow)">
+    <path d="M310 832c22-172 68-264 142-264 78 0 126 92 150 264z" fill="#13251f"/>
+    <path d="M312 838c30-120 72-184 138-184 72 0 116 64 146 184z" fill="#0f766e"/>
+    <ellipse cx="450" cy="454" rx="134" ry="148" fill="#37231f"/>
+    <circle cx="450" cy="468" r="104" fill="#f0c0a1"/>
+    <path d="M330 452c31-133 180-170 245-45-77-34-153-25-245 45z" fill="#271c19"/>
+    <path d="M352 516c52 72 142 72 196 0 22 40 44 103 52 192H300c9-86 29-149 52-192z" fill="#111827"/>
+    <rect x="398" y="646" width="104" height="160" rx="22" fill="#09090b"/>
+    <path d="M410 696h80" stroke="#22c55e" stroke-width="5" opacity=".4"/>
+  </g>
+  <g opacity=".34">
+    <rect x="88" y="198" width="218" height="64" rx="24" fill="#fff"/>
+    <rect x="594" y="292" width="232" height="64" rx="24" fill="#fff"/>
+    <rect x="106" y="382" width="182" height="54" rx="22" fill="#fff"/>
+  </g>
+  <text x="450" y="960" text-anchor="middle" font-size="86" font-family="Arial, sans-serif" font-weight="700" fill="#fffaf0">温柔陷阱</text>
+  <text x="450" y="1026" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" fill="#fde7c7">越温柔的话，越要听清楚代价</text>
+</svg>

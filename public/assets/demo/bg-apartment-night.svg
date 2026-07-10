@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="出租屋雨夜背景">
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#17212f"/>
+      <stop offset=".58" stop-color="#2b3540"/>
+      <stop offset="1" stop-color="#221b1a"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx=".72" cy=".42" r=".38">
+      <stop stop-color="#f7c873" stop-opacity=".75"/>
+      <stop offset=".55" stop-color="#f7c873" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#f7c873" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#room)"/>
+  <rect width="1080" height="1920" fill="url(#lamp)"/>
+  <rect x="108" y="168" width="392" height="640" rx="18" fill="#0b1020"/>
+  <rect x="138" y="210" width="332" height="556" rx="8" fill="#1d3551"/>
+  <path d="M150 716c98-180 218-282 318-406v456H138z" fill="#0f172a" opacity=".52"/>
+  <g stroke="#c7d2fe" stroke-width="4" opacity=".35">
+    <path d="M190 254v460"/>
+    <path d="M260 254v460"/>
+    <path d="M330 254v460"/>
+    <path d="M400 254v460"/>
+  </g>
+  <g stroke="#93c5fd" stroke-width="6" opacity=".52">
+    <path d="M176 266l-22 70"/>
+    <path d="M256 278l-30 104"/>
+    <path d="M352 252l-28 90"/>
+    <path d="M424 320l-22 78"/>
+  </g>
+  <rect x="0" y="1244" width="1080" height="676" fill="#161312"/>
+  <rect x="130" y="1114" width="560" height="152" rx="18" fill="#3a2d28"/>
+  <rect x="182" y="1048" width="318" height="92" rx="14" fill="#b9794d"/>
+  <rect x="716" y="850" width="178" height="408" rx="26" fill="#221917"/>
+  <path d="M760 788h88l42 86H718z" fill="#e2a96f"/>
+  <ellipse cx="806" cy="808" rx="62" ry="26" fill="#ffedd5" opacity=".4"/>
+  <rect x="650" y="1240" width="330" height="40" fill="#46332b"/>
+  <path d="M122 1388h835l62 532H56z" fill="#2b2420"/>
+  <path d="M154 1392h780" stroke="#6b5145" stroke-width="10"/>
+  <circle cx="450" cy="1088" r="8" fill="#fde68a" opacity=".8"/>
+</svg>

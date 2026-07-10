@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="人生模拟器图标">
+  <rect width="512" height="512" rx="96" fill="#111827"/>
+  <path d="M112 338c22-114 75-174 144-174s122 60 144 174z" fill="#0f766e"/>
+  <circle cx="256" cy="196" r="72" fill="#f2c4a3"/>
+  <path d="M182 190c22-72 112-92 154-20-54-18-99-12-154 20z" fill="#3a241f"/>
+  <rect x="150" y="350" width="212" height="18" fill="#f59e0b"/>
+</svg>
